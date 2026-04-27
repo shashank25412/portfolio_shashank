@@ -1,116 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Shashank Kumar</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
-    </head>
-    <body>
-        <table cellspacing="20" id="top">
-            <tr>
-                <td> <a href="resources/sk.jpg">
-                        <img src="resources/sk.jpg" alt="profile" height="150px" width="auto" style="border-radius: 100px;">
-                    </a>
-                </td>
-                <td><h1>Shashank Kumar</h1>
-                    <p><em>Bachelor of Technology</em><br>
-                    <em>Computer Science & Engineering</em></p>
-                    <p>I am a final year computer science student.</p>
-                </td>
-            </tr>
-        </table>
-        
-        <hr>
-        <table cellspacing="10" align="center">
-            <tr>
-                <td><a href="#education">Education</a></td>
-                <td><a href="#skills">Skills</a></td>
-                <td><a href="#about">About</a></td>
-                <td><a href="#contacts">Contacts</a></td>
-                <td><a href="projects.html">Projects</a></td>
-                <td><a href="resources/Shashank_Resume2026.pdf">Download Resume</a></td>
-                <td><a href="games.html">Play Games</a></td>
-            </tr>
-        </table>
-        <hr>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Kumar | Backend Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="resources/Shashank_Resume2026.pdf" download class="download-link">
+            <svg class="dl-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v12"></path>
+                <path d="M7 10l5 5 5-5"></path>
+                <path d="M5 21h14"></path>
+            </svg>
+            Download resume
+        </a>
+    </nav>
 
-        <h3 id="education">Education</h3>
-        <table cellspacing="10">
-            <tr><td>B.Tech</td>
-                <td><em><a href="https://www.iesbpl.ac.in">IES College Of Technology, Bhopal </a></em> </td>
-                <td><em>2018-22</em></td>
-                <td><em>8.52 CGPA</em></td>
-            </tr>
+    <main class="page" id="top">
+        <header class="header">
+            <a href="resources/sk.jpg">
+                <img src="resources/sk.jpg" alt="Shashank Kumar">
+            </a>
+            <div>
+                <h1>Shashank Kumar</h1>
+                <div class="meta">
+                    Backend Engineer &middot; 4+ yrs in Payments &amp; Distributed Systems<br>
+                    +91 9128142711 &middot;
+                    <a href="mailto:shashank25412@gmail.com">shashank25412@gmail.com</a> &middot;
+                    <a href="https://linkedin.com/in/shashank25412">linkedin/shashank25412</a>
+                </div>
+            </div>
+        </header>
 
-            <tr>
-                <td>12th</td>
-                <td><em>DAV Centenary Public School, Siwan</em></td>
-                <td><em>2016-18</em></td>
-                <td><em>71%</em></td>
-            </tr>
+        <section id="about">
+            <h3>About</h3>
+            <p>
+                Backend Engineer with 4+ years of experience building scalable payment systems using C++
+                and distributed architectures. Skilled in PCI-compliant high-availability APIs, payment
+                processing, and event-driven systems with reusable backend components.
+            </p>
+        </section>
 
-            <tr>
-                <td>10th</td>
-                <td><em>Mahaviri Saraswati Vidya Mandir, Siwan</em></td>
-                <td><em>2016</em></td>
-                <td><em>10 CGPA</em></td>
-            </tr>
-        </table>
-        
-        <hr>
+        <div class="cols">
+            <div class="col">
+                <section id="experience">
+                    <h3>Experience</h3>
 
-        <h3 id="skills">Skills</h3>
-        <table>
-            <tr> <td> C++ </td> </tr>
-            <tr> <td> Java </td> </tr>
-            <tr> <td> Web development </td> </tr>
-            <tr> <td> SQL </td> </tr>
-        </table>
+                    <div class="exp">
+                        <div class="row">
+                            <strong>Outpayce from Amadeus</strong>
+                            <span class="when">May 2024 &ndash; Present</span>
+                        </div>
+                        <div class="row"><span class="role">SDE II</span></div>
+                        <ul>
+                            <li>Built core components of a standalone payment platform integrating alternative payment methods; cut integration effort by 50%.</li>
+                            <li>Designed high-availability payment provider APIs for concurrent transactions and partner scalability.</li>
+                            <li>Modularized legacy code into reusable services, improving maintainability across teams.</li>
+                        </ul>
+                    </div>
 
-        <hr>
+                    <div class="exp">
+                        <div class="row">
+                            <strong>Amadeus</strong>
+                            <span class="when">Aug 2022 &ndash; May 2024</span>
+                        </div>
+                        <div class="row"><span class="role">SDE I</span></div>
+                        <ul>
+                            <li>Contributed to BNPL travel payments architecture and backend.</li>
+                            <li>Mentored an intern to build QA/automation tools, reducing manual testing effort by 30%.</li>
+                            <li>Implemented optimizations improving development velocity and feature turnaround.</li>
+                        </ul>
+                    </div>
 
-        <h3 id="about">Coding Profiles</h3>
-        <table cellspacing ="10">
-            <tr>
-                <td>CodeChef</td>
-                <td><a href="https://www.codechef.com/users/shashank25412">codechef/shashank25412</a></td>
-            </tr>
-            <tr>
-                <td>HackerRank</td>
-                <td><a href="https://www.hackerrank.com/shashank254121">hackerrank/shashank254121</a></td>
-            </tr>
-        </table>
+                    <div class="exp">
+                        <div class="row">
+                            <strong>Amadeus</strong>
+                            <span class="when">Feb 2022 &ndash; Aug 2022</span>
+                        </div>
+                        <div class="row"><span class="role">SDE Intern</span></div>
+                        <ul>
+                            <li>Designed an ISO8583 encoder/decoder for credit card transaction processing.</li>
+                            <li>Built web-based payment message injection for sandbox testing, adopted by QA teams.</li>
+                        </ul>
+                    </div>
+                </section>
 
-        <h3>Hobbies</h3>
-        <table>
-            <tr><td>Carrom</td></tr>
-            <tr><td>Chess</td></tr>
-            <tr><td>Mountains</td></tr>
-        </table>
+                <section id="projects">
+                    <h3>Projects</h3>
+                    <p>
+                        <strong>EaseParking: Distributed Parking Platform</strong> <em>(2022)</em> &mdash;
+                        Backend platform connecting property owners with vehicle users for real-time parking
+                        discovery and booking. Implemented scalable services for listings, booking, and user workflows.
+                    </p>
+                </section>
+            </div>
 
-        <hr>
+            <div class="col">
+                <section id="skills">
+                    <h3>Skills</h3>
+                    <table class="kv">
+                        <tr><td>Languages</td><td>C++</td></tr>
+                        <tr><td>Backend</td><td>REST APIs, Microservices, Distributed Systems</td></tr>
+                        <tr><td>Messaging</td><td>Kafka</td></tr>
+                        <tr><td>Payments</td><td>ISO8583, PCI-DSS, Payment Processing</td></tr>
+                        <tr><td>Data</td><td>SQL</td></tr>
+                        <tr><td>Tools</td><td>Splunk, Swagger, Git</td></tr>
+                        <tr><td>Core CS</td><td>Data Structures, Algorithms</td></tr>
+                    </table>
+                </section>
 
-        <h3 id="contacts">Contacts</h3>
-        <table cellspacing="10">
-            <tr>
-                <td>Address</td>
-                <td>Siwan, Bihar, 841231</td>
-            </tr>
-            <tr>
-                <td>Email</td> 
-                <td>shashank25412@gmail.com</td>
-            </tr>
-            <tr>
-                <td>Mobile</td>
-                <td>(+91) 9128142711</td>
-            </tr>
-        </table>
+                <section id="education">
+                    <h3>Education</h3>
+                    <p>
+                        <strong>Rajiv Gandhi Technical University, Bhopal (M.P.)</strong><br>
+                        B. Tech. in Computer Science <em>(2018&ndash;2022)</em>
+                    </p>
+                </section>
 
-        <hr>
+                <section id="achievements">
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>Internal Trainer at Amadeus (2023, 2024).</li>
+                        <li>Amadeus Game Changer &amp; Pace Setter awards.</li>
+                        <li>KPIT Sparkle Emerging Innovator (2020).</li>
+                    </ul>
+                </section>
 
-        <button id="top"><a href="#top"> Go to top </a> </button>
-    </body>
+                <section id="contacts">
+                    <h3>Contact</h3>
+                    <table class="kv">
+                        <tr><td>Phone</td><td>+91 9128142711</td></tr>
+                        <tr><td>Email</td><td><a href="mailto:shashank25412@gmail.com">shashank25412@gmail.com</a></td></tr>
+                        <tr><td>LinkedIn</td><td><a href="https://linkedin.com/in/shashank25412">linkedin.com/in/shashank25412</a></td></tr>
+                        <tr><td>GitHub</td><td><a href="https://github.com/shashank25412">github.com/shashank25412</a></td></tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="#top">Back to top</a>
+        </div>
+    </main>
+</body>
 </html>
